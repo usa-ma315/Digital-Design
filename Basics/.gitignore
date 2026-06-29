@@ -1,0 +1,8 @@
+# Ignore simulation output
+Basics/Logic_Gates/sim/
+
+# Ignore VCD waveform files
+*.vcd
+
+# Ignore compiled Icarus Verilog output
+*.out
