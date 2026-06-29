@@ -21,6 +21,6 @@ module or_tb;
         #10 
         a=1;b=1;
         #10 
-        $finish;
+        $stop;
     end
 endmodule   

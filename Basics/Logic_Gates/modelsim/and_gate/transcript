@@ -1,0 +1,11 @@
+# vsim and_tb 
+# Start time: 18:19:33 on Jun 29,2026
+# Loading work.and_tb
+# Loading work.and_gate
+add wave *
+run -all
+# ** Note: $stop    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/and_tb.v(24)
+#    Time: 40 ps  Iteration: 0  Instance: /and_tb
+# Break in Module and_tb at /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/and_tb.v line 24
+# End time: 21:14:41 on Jun 29,2026, Elapsed time: 2:55:08
+# Errors: 0, Warnings: 0

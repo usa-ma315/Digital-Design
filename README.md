@@ -56,11 +56,9 @@ cd Digital-Design
 
 ```bash
 mkdir -p Basics/Logic_Gates/sim
+mkdir -p Basics/Logic_Gates/sim/and_gate
 
-iverilog \
--o Basics/Logic_Gates/sim/and_gate \
-Basics/Logic_Gates/src/and_gate.v \
-Basics/Logic_Gates/testbench/and_tb.v
+iverilog \ -o Basics/Logic_Gates/sim/and_gate Basics/Logic_Gates/src/and_gate.v Basics/Logic_Gates/testbench/and_tb.v
 ```
 
 ---
@@ -68,7 +66,8 @@ Basics/Logic_Gates/testbench/and_tb.v
 ## Run Simulation
 
 ```bash
-vvp Basics/Logic_Gates/sim/and_gate
+cd Basics/Logic_Gates/sim/and_gate
+vvp and_gate
 ```
 
 This generates:
@@ -82,6 +81,7 @@ and_tb.vcd
 ## View Waveform
 
 ```bash
+cd Basics/Logic_Gates/sim/and_gate
 gtkwave and_tb.vcd
 ```
 
