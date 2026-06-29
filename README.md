@@ -102,7 +102,7 @@ gtkwave and_tb.vcd
 
 ### GTKWave Output
 
-![Waveform](images/and_gate_waveform.png)
+![Waveform](img/and_gate.png)
 
 ---
 
