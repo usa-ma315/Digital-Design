@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/modelsim/or_gate
+vor_gate
+Z1 !s110 1782799328
+!i10b 1
+!s100 IN0Ofe5m@ELEF;@ZEFO?S1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ`@MfS>=>kho<dCXTQ`l10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1782735451
+8/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/src/or_gate.v
+F/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/src/or_gate.v
+!i122 0
+L0 1 7
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1782799328.000000
+!s107 /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v|/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/src/or_gate.v|
+Z6 !s90 /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/src/or_gate.v|/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vor_tb
+R1
+!i10b 1
+!s100 EQgEJm[KaR4SjD[n8hKYg3
+R2
+IgE^Zf7MG9iaK8Sgif^:TR2
+R3
+R0
+w1782738406
+8/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v
+F/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v
+!i122 0
+L0 1 26
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v|/home/usama/Desktop/Digital_Design/Basics/Logic_Gates/src/or_gate.v|
+R6
+!i113 1
+R7

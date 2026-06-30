@@ -1,0 +1,9 @@
+# vsim or_tb 
+# Start time: 11:02:26 on Jun 30,2026
+# Loading work.or_tb
+# Loading work.or_gate
+add wave *
+run -all
+# ** Note: $stop    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v(24)
+#    Time: 40 ps  Iteration: 0  Instance: /or_tb
+# Break in Module or_tb at /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/or_tb.v line 24
