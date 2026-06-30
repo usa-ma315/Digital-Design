@@ -1,0 +1,18 @@
+# vsim nand_tb 
+# Start time: 15:15:31 on Jun 30,2026
+# Loading work.nand_tb
+# Loading work.nand_gate
+add wave *
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "Basics/Logic_Gates/sim/nand_gate/nand_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nand_tb.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /nand_tb
+# Test case 1: a=0, b=0, y=1
+# Test case 2: a=0, b=1, y=1
+# Test case 3: a=1, b=0, y=1
+# Test case 4: a=1, b=1, y=0
+# ** Note: $stop    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nand_tb.v(38)
+#    Time: 40 ps  Iteration: 0  Instance: /nand_tb
+# Break in Module nand_tb at /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nand_tb.v line 38
+# End time: 15:25:00 on Jun 30,2026, Elapsed time: 0:09:29
+# Errors: 1, Warnings: 0

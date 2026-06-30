@@ -1,0 +1,4 @@
+read_verilog src/or_gate.v
+hierarchy -top or_gate
+synth
+stat

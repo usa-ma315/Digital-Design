@@ -1,0 +1,29 @@
+# vsim nor_tb 
+# Start time: 15:32:17 on Jun 30,2026
+# Loading work.nor_tb
+# Loading work.nor_gate
+add wave*
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+add wave *
+run -all
+# ** Error: (vsim-7) Failed to open VCD file "Basics/Logic_Gates/sim/nor_gate/nor_tb.vcd" in write mode.
+# No such file or directory. (errno = ENOENT)    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nor_tb.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /nor_tb
+# ** Note: $stop    : /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nor_tb.v(22)
+#    Time: 40 ps  Iteration: 0  Instance: /nor_tb
+# Break in Module nor_tb at /home/usama/Desktop/Digital_Design/Basics/Logic_Gates/testbench/nor_tb.v line 22
+# End time: 15:33:13 on Jun 30,2026, Elapsed time: 0:00:56
+# Errors: 1, Warnings: 0
